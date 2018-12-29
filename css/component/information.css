@@ -37,7 +37,7 @@
 	border: 2px solid #E6ECEF;
 	box-sizing: border-box;
 	border-radius: 5px;
-	-webkit-appearance: none
+	-webkit-appearance: none;
 }
 
 .information form button {
