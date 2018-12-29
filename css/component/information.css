@@ -1,7 +1,7 @@
 .information header {
 	float: right;
-	height: 80px;
-	padding: 1em 0;
+	height: 60px;
+	padding: .5em 0;
 	box-sizing: border-box;
 }
 
