@@ -1,0 +1,57 @@
+.information header {
+	float: right;
+	height: 80px;
+	padding: 1em 0;
+	box-sizing: border-box;
+}
+
+.information header h2 {
+	float: left;
+	font-size: 1em;
+	font-weight: 400;
+	margin-right: 1em;
+}
+
+.information header img {
+	height: 18px;
+	margin: .8em 0;
+}
+
+.information form {
+    clear: both;
+}
+
+.information form label {
+	color: #A2B3BB;
+	font-size: .875em;
+}
+
+.information form input {
+	width: 100%;
+	margin: 1em 0;
+	padding: 1.2em 1em;
+	border: 2px solid #E6ECEF;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+.information form button {
+	float: right;
+    color: #f6fbfe;
+    font-size: .875em;
+	width: 150px;
+	height: 40px;
+	padding: .0 1.2em;
+	background-color:#03A9F4;
+	border-style: none;
+	border-radius: 25px;
+}
+
+.information form button img {
+    height: 18px;
+    float: right;
+}
+
+/***************************
+    Personal Information
+***************************/
