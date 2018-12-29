@@ -33,6 +33,7 @@
 	width: 100%;
 	margin: 1em 0;
 	padding: 1.2em 1em;
+	border-style: none;
 	border: 2px solid #E6ECEF;
 	box-sizing: border-box;
 	border-radius: 5px;
