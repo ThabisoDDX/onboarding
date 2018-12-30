@@ -16,7 +16,7 @@
 	margin-right: -3px;
 }
 
-.main-nav .logo svg {
+.main-nav .logo, .main-nav .logo svg {
 	display: none;
 }
 
