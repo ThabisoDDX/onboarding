@@ -70,7 +70,7 @@
 		margin-bottom: 2em;
 		padding: 3em 0;
 		background-color: #fff;
-		box-shadow: 0 3px 3px rgba(0, 0, 0, .1);
+		border-bottom: 1px solid aliceblue;
 		overflow: hidden;
 	}
 
@@ -83,8 +83,6 @@
 
 	.information .sidebar .pagination {
 		margin: 6em 0;
-		padding: .7em 0;
-		border-right: 2px solid #A2B3BB;
 		box-sizing: border-box;
 	}
 
@@ -94,6 +92,7 @@
 		color: #A2B3BB;
 		width: 30px;
 		height: 30px;
+		margin: .7em 0;
 		padding: .25em 0;
 		border-radius: 50%;
 		box-sizing: border-box;
@@ -121,13 +120,13 @@
 	.information .sidebar .contact {
 		color: #A2B3BB;
 		margin: 5.8em 0;
-		border-left: 2px solid #A2B3BB;
 	}
 
 	.information .sidebar .contact span {
 		display: block;
 		margin-bottom: .5em;
 	}
+
 
 	.information form div label {
 		display: inline-block;
@@ -136,5 +135,53 @@
 
 	.information form .fullname label:first-of-type {
 		margin-right: 1em;
+	}
+}
+
+@media only screen and (min-width: 1279px) {
+	
+	.information {
+		width: 78.125%;
+		margin: 4em auto;
+		border: 1px solid aliceblue;
+		border-radius: 5px;
+		overflow: hidden;
+	}
+	
+	.information header {
+		float: none;
+		display: inline-block;
+		margin-top: 1em;
+		padding: 0 2em;
+	}
+
+	.information header img {
+		display: none;
+	}
+
+	.information .sidebar {
+		float: right;
+		width: 25%;
+		height: 100%;
+		margin-bottom: 0;
+		padding: 0 2em;
+		box-shadow: none;
+		border-left: 1px solid aliceblue;
+	}
+
+	.information .sidebar div {
+		float: none;
+		width: 100%;
+		padding: 0
+	}
+
+	.information form {
+		display: inline-block;
+		width: 62%;
+		padding: 0 2em;
+	}
+
+	.information form div label {
+		width: 48.39%;
 	}
 }
