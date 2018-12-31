@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Registration: Personal Infomation</title>
+    <title>Registration: Company Infomation</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
 </head>
+
 <body>
     <header class="main-header">
         <nav class="main-nav">
@@ -62,61 +63,58 @@
         <section class="information">
             <article class="wrapper">
                 <header class="title">
-                    <h2>Personal information</h2>
+                    <div>
+                        <h2>Email Setup</h2>
+                        <p>Which email provider are you using? Pick Below:</p>
+                    </div>
                     <img src="img/icons/arrow-right.svg" alt="next">
                 </header>
             </article>
             <aside class="sidebar">
+                    <article class="wrapper">
+                        <div class="pagination">
+                            <a href="#">1</a>
+                            <a href="#">2</a>
+                            <a class="active" href="#">3</a>
+                            <a href="#">4</a>
+                            <span></span>
+                        </div>
+                        <div class="card">
+                            <span></span>
+                            <img src="img/icons/mailbox.svg" alt="mail">
+                            <h4>Email Setup</h4>
+                            <p>Fill out the form on the left. You can always edit the data in the settings menu.</p>
+                            <span></span>
+                        </div>
+                        <div class="contact">
+                            <span>(011) 123-5555</span>
+                            <span>help@example.com</span>
+                        </div>
+                    </article>
+                </aside>
+            <form class="setup">
                 <article class="wrapper">
-                    <div class="pagination">
-                        <a class="active" href="#">1</a>
-                        <a href="#">2</a>
-                        <a href="#">3</a>
-                        <a href="#">4</a>
-                        <span></span>
-                    </div>
-                    <div class="card">
-                        <span></span>
-                        <img src="img/icons/card.svg" alt="card">
-                        <h4>Personal information</h4>
-                        <p>Fill out the form on the left. You can always edit the data in the settings menu.</p>
-                        <span></span>
-                    </div>
-                    <div class="contact">
-                        <span>(011) 123-5555</span>
-                        <span>help@example.com</span>
-                    </div>
+                       <div class="provider gmail">
+                            <img src="img/icons/google-icon.svg" alt="gmail">
+                            <p>I'am using Gmail</p>
+                       </div>
+                       <div class="provider outlook">
+                            <img src="img/icons/outlook.svg" alt="outlook">
+                            <p>I'am using Outlook</p>
+                       </div>
+                       <div class="provider other">
+                            <img src="img/icons/other.svg" alt="provider">
+                            <p>I'am using Other</p>
+                       </div>
+                       <p>Or if you want to skip this step entirely and setup it later.
+                           <span><a href="#">Skip Step</a></span>
+                       </p>
+                        <div class="pagination">
+                            <a class="previous" href="company.html"><img src="img/icons/arrow-left.svg" alt="next">Previous</a>
+                            <a class="next" href="emailsetup.html">Next Step<img src="img/icons/arrow-right-white.svg" alt="previous"></a>
+                        </div>
                 </article>
-            </aside>
-            <form class="personal">
-                <article class="wrapper">
-                    <div class="fullname">
-                        <label for="firstname">
-                            First Name:
-                            <input type="text" name="name" placeholder="Jane">
-                        </label>
-                        <label for="lastname">
-                            Last Name:
-                            <input type="text" name="name" placeholder="Doe">
-                        </label>
-                    </div>
-                    <label for="email">
-                        Email Address:
-                        <input type="email" name="email" placeholder="janedoe@example.com">
-                    </label>
-                    <label for="phone">
-                        Phone Number:
-                        <input type="tel" name="phone" placeholder="(011) 123-5555">
-                    </label>
-                    <label for="location">
-                        Where are you from?
-                        <input type="text" name="location" placeholder="Johannesburg">
-                    </label>
-                    <div class="pagination">
-                        <a class="next" href="company.html">Next Step<img src="img/icons/arrow-right-white.svg" alt="previous"></a>
-                    </div>
-                </form>
-            </article>
+            </form>
         </section>
     </main>
 </body>
