@@ -47,7 +47,8 @@
 	margin-bottom: 1.2em;
 	padding: 1.4em 0;
 	text-align: center;
-	border: 2px dashed aliceblue;
+	outline: 2px dashed #f4f4f4;
+	outline-offset: -5px;
 	background-color: #F6FBFE;
 }
 
@@ -118,7 +119,7 @@
 		width: 86.979%;
 	}
 
-	.information .sidebar article div {
+	.information .sidebar div {
 		float: left;
 		width: 30%;
 		text-align: center;
@@ -211,7 +212,7 @@
 		width: 25%;
 		height: 100%;
 		margin-bottom: 0;
-		padding: 0 2em;
+		padding: 2em;
 		box-shadow: none;
 		border-left: 1px solid aliceblue;
 	}
@@ -219,12 +220,14 @@
 	.information .sidebar div {
 		float: none;
 		width: 100%;
+		height: 25%;
 		padding: 0
 	}
 
 	.information form {
 		display: inline-block;
 		width: 62%;
+		margin: 0;
 		padding: 0 2em;
 	}
 
