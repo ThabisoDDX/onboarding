@@ -40,6 +40,10 @@
 	-webkit-appearance: none;
 }
 
+.information form input::placeholder {
+	color: #A2B3BB;
+}
+
 .information form .box {
 	color: #03A9F4;
 	position: relative;
@@ -66,7 +70,7 @@
 	margin: 0;
 }
 
-.box button {
+.information .box button {
 	display: none;
 }
 
@@ -79,12 +83,14 @@
 	display: block;
 	color: #f6fbfe;
 	text-align: center;
-    font-size: .875em;
+	text-transform: uppercase;
+	font-size: .875em;
+	font-weight: 600;
 	width: 150px;
 	height: 40px;
 	margin-bottom: 1em;
 	margin-left: 1em;
-	padding: .8em 1.5em;
+	padding: .9em 1.5em;
 	background-color:#03A9F4;
 	border-radius: 25px;
 	box-sizing: border-box;
@@ -94,7 +100,12 @@
 	background-color: #E6ECEF;
 }
 
-.information form .pagination img {
+.information form .pagination a:first-of-type img {
+	float: left;
+	height: 18px;
+}
+
+.information form .pagination a:last-of-type img {
 	float: right;
 	height: 18px;
 }
@@ -229,6 +240,11 @@
 		width: 62%;
 		margin: 0;
 		padding: 0 2em;
+	}
+
+	.information form .box p span {
+		display: inline-block;
+		color: #A2B3BB;
 	}
 
 	.information form div label {

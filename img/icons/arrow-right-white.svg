@@ -1,3 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9.636 18">
-  <path d="M1.086 17.814a.637.637 0 0 1-.9 0 .637.637 0 0 1 0-.9L8.1 9 .186 1.086a.636.636 0 1 1 .9-.9L9.45 8.55a.637.637 0 0 1 0 .9z" fill="#f6fbfe"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7.537 13.056">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f6fbfe;
+        stroke: #f6fbfe;
+      }
+    </style>
+  </defs>
+  <g id="Group_9" data-name="Group 9" transform="translate(0.556 0.556)">
+    <path id="Path_12" data-name="Path 12" class="cls-1" d="M34.124,18.376a.425.425,0,0,1-.6,0,.425.425,0,0,1,0-.6L38.8,12.5,33.524,7.224a.424.424,0,1,1,.6-.6L39.7,12.2a.425.425,0,0,1,0,.6Z" transform="translate(-33.4 -6.5)"/>
+  </g>
 </svg>
