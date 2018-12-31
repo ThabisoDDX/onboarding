@@ -40,22 +40,62 @@
 	-webkit-appearance: none;
 }
 
-.information form button {
+.information form .box {
+	color: #03A9F4;
+	position: relative;
+	width: 100%;
+	margin-bottom: 1.2em;
+	padding: 1.4em 0;
+	text-align: center;
+	border: 2px dashed aliceblue;
+	background-color: #F6FBFE;
+}
+
+.information form .box p span {
+	display: none;
+}
+
+.information form .box input[type=file] {
+	opacity: 0;
+	color: aliceblue;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	margin: 0;
+}
+
+.box button {
+	display: none;
+}
+
+.information form .pagination {
 	float: right;
-    color: #f6fbfe;
+	margin-top: 2em;
+}
+
+.information form .pagination a {
+	display: block;
+	color: #f6fbfe;
+	text-align: center;
     font-size: .875em;
 	width: 150px;
 	height: 40px;
-	margin-top: 2em;
-	padding: .0 1.2em;
+	margin-bottom: 1em;
+	margin-left: 1em;
+	padding: .8em 1.5em;
 	background-color:#03A9F4;
-	border-style: none;
 	border-radius: 25px;
+	box-sizing: border-box;
 }
 
-.information form button img {
-    height: 18px;
-    float: right;
+.information form .pagination .previous {
+	background-color: #E6ECEF;
+}
+
+.information form .pagination img {
+	float: right;
+	height: 18px;
 }
 
 /***************************
@@ -67,14 +107,18 @@
 	.information .sidebar {
 		display: block;
 		clear: both;
-		margin-bottom: 2em;
-		padding: 3em 0;
+		padding: 1em 0;
 		background-color: #fff;
+		border-top: 1px solid aliceblue;
 		border-bottom: 1px solid aliceblue;
 		overflow: hidden;
 	}
 
-	.information .sidebar div {
+	.information .sidebar article {
+		width: 86.979%;
+	}
+
+	.information .sidebar article div {
 		float: left;
 		width: 30%;
 		text-align: center;
@@ -127,10 +171,13 @@
 		margin-bottom: .5em;
 	}
 
+	.information form {
+		margin: 3em auto;
+	}
 
 	.information form div label {
 		display: inline-block;
-		width: 48.5%;
+		width: 48%;
 	}
 
 	.information form .fullname label:first-of-type {

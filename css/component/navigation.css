@@ -20,10 +20,6 @@
 	display: none;
 }
 
-.main-nav .logo path {
-	fill: none;
-}
-
 .main-nav svg {
 	height: 30px;
 	padding: .95em 0;
@@ -57,10 +53,14 @@
 		border: none;
 	}
 
-	.main-nav .logo a, .main-nav .logo svg {
+	.main-nav .logo, .main-nav .logo svg {
+		display: block;
 		position: absolute;
 		left: 0;
-		display: block;
+	}
+
+	.main-nav .logo path {
+		fill: none;
 	}
 
 	.main-nav a {

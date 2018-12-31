@@ -11,8 +11,24 @@ main {
     overflow: hidden;
 }
 
-@media only screen and (min-width: 1279px) {
+a {
+    text-decoration: none;
+    color: #575F63;
+}
+
+@media only screen and (min-width: 767px) {   
+   
     main {
         padding: 0;
     }
+
+    .wrapper {
+        width: 73.958%;
+        margin: 0 auto;
+    }
+    
+}
+
+@media only screen and (min-width: 1279px) {
+   
 }
