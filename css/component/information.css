@@ -6,6 +6,7 @@
 }
 
 .information header h2 {
+	color: #7FBCBE;
 	float: left;
 	font-weight: 400;
 	font-size: 1.2em;
@@ -26,7 +27,7 @@
 }
 
 .information form label {
-	color: #A2B3BB;
+	color: #323742;
 }
 
 .information form input {
@@ -34,18 +35,18 @@
 	margin: 1em 0;
 	padding: 1.2em 1em;
 	border-style: none;
-	border: 2px solid #E6ECEF;
+	border: 2px solid #F2F6F3;
 	box-sizing: border-box;
 	border-radius: 5px;
 	-webkit-appearance: none;
 }
 
 .information form input::placeholder {
-	color: #A2B3BB;
+	color: #E3E3E3;
 }
 
 .information form .box {
-	color: #03A9F4;
+	color: #7FBCBE;
 	position: relative;
 	width: 100%;
 	margin-bottom: 1.2em;
@@ -62,7 +63,6 @@
 
 .information form .box input[type=file] {
 	opacity: 0;
-	color: aliceblue;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -81,7 +81,7 @@
 
 .information form .pagination a {
 	display: block;
-	color: #f6fbfe;
+	color: #fff;
 	text-align: center;
 	text-transform: uppercase;
 	font-size: .875em;
@@ -91,13 +91,13 @@
 	margin-bottom: 1em;
 	margin-left: 1em;
 	padding: .9em 1.5em;
-	background-color:#03A9F4;
+	background-color: #7FBCBE;
 	border-radius: 25px;
 	box-sizing: border-box;
 }
 
 .information form .pagination .previous {
-	background-color: #E6ECEF;
+	background-color: #E3E3E3;
 }
 
 .information form .pagination a:first-of-type img {
@@ -137,7 +137,7 @@
 .information .title div p {
 	font-size: .875em;
 	text-align: right;
-	color: #A2B3BB;
+	color: #323742;
 }
 
 
@@ -155,8 +155,8 @@
 	margin: 0 auto;
 	margin-bottom: 2.2em;
 	padding: 1em 0;
-	border: 1px solid aliceblue;
 	border-radius: 5px;
+	box-shadow: 0 0 25px rgba(0, 0, 0, .1);
 	box-sizing: border-box;
 }
 
@@ -191,7 +191,7 @@
 
 .information form.setup p a {
 	display: block;
-	color: #0078D7;
+	color: #7FBCBE;
 	text-decoration: underline;
 	margin-top: .5em;
 }
@@ -208,7 +208,7 @@
 	text-align: center;
 	margin-top: 6em;
 	padding: 1em;
-	border: 1px solid aliceblue;
+	box-shadow: 0 0 25px rgba(0, 0, 0, .1)
 }
 
 .information form.confirmation figure {
@@ -228,14 +228,14 @@
 }
 
 .information form.confirmation p {
-	color: #A2B3BB;
+	color: #323742;
 	font-size: .875em;
 	font-weight: 400;
 	margin: 0;
 }
 
 .information form.confirmation p a {
-	color: #0078D7;
+	color: #7FBCBE;
 	text-decoration: underline;
 }
 
@@ -251,7 +251,7 @@
 }
 
 
-.information form .pagination a img {
+.information form.confirmation .pagination a:last-of-type img {
 	display: none;
 }
 
@@ -263,8 +263,8 @@
 		clear: both;
 		padding: 1em 0;
 		background-color: #fff;
-		border-top: 1px solid aliceblue;
-		border-bottom: 1px solid aliceblue;
+		box-shadow: 0 3px 12px rgba(0, 0, 0, .05);
+		box-shadow: 0 -3px 12px rgba(0, 0, 0, .05);
 		overflow: hidden;
 	}
 
@@ -287,7 +287,7 @@
 	.information .sidebar div a {
 		display: inline-block;
 		text-decoration: none;
-		color: #A2B3BB;
+		color: #7FBCBE;
 		width: 30px;
 		height: 30px;
 		margin: .7em 0;
@@ -297,16 +297,21 @@
 	}
 
 	.information .sidebar div a.active {
-		color: #03A9F4;
-		border: 2px solid #03A9F4;
+		color: #FFD13A;
+		border: 2px solid #FFD13A;
+	}
+
+	.information .sidebar .card {
+		padding: 1.4em 0;
 	}
 
 	.information .sidebar .card h4 {
+		color: #7FBCBE;
 		font-weight: 400;
 	}
 
 	.information .sidebar .card p {
-		color: #A2B3BB;
+		color: #323742;
 		font-size: .875em;
 		line-height: 2em;
 	}
@@ -316,7 +321,7 @@
 	}
 
 	.information .sidebar .contact {
-		color: #A2B3BB;
+		color: #7FBCBE;
 		margin: 5.8em 0;
 	}
 
@@ -405,7 +410,7 @@
 	.information {
 		width: 78.125%;
 		margin: 4em auto;
-		border: 1px solid aliceblue;
+		box-shadow: 0 0 12px rgba(0, 0, 0, .05);
 		border-radius: 5px;
 		overflow: hidden;
 	}
@@ -432,8 +437,7 @@
 		height: 100%;
 		margin-bottom: 0;
 		padding: 2em;
-		box-shadow: none;
-		border-left: 1px solid aliceblue;
+		box-shadow: -3px 0 12px rgba(0, 0, 0, .05);
 	}
 
 	.information .sidebar div {
@@ -441,6 +445,10 @@
 		width: 100%;
 		height: 25%;
 		padding: 0
+	}
+
+	.information .sidebar article {
+		width: 100%;
 	}
 
 	.information form {

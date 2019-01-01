@@ -1,18 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53.881 52.042">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: none;
-        stroke: #03a9f4;
-        stroke-miterlimit: 10;
-        stroke-width: 2px;
-      }
-    </style>
-  </defs>
-  <g id="guides" transform="translate(1 1.022)">
-    <path id="Path_20" data-name="Path 20" class="cls-1" d="M109.776,27.382h0L104.1,12.067l-1.069-2.876a6.328,6.328,0,0,0-8.2-3.774l-.7.272a6.3,6.3,0,0,0-.817.392,6.44,6.44,0,0,0-2.288,3.163l-.99,2.984L85,27.382Z" transform="translate(-71.767 -4.998)"/>
-    <path id="Path_21" data-name="Path 21" class="cls-1" d="M44.426,234.522a6.481,6.481,0,0,0,4.065,8.216l.729.247a6.484,6.484,0,0,0,8.216-4.066l3.082-9.119h-14.5Z" transform="translate(-37.804 -193.328)"/>
-    <path id="Path_22" data-name="Path 22" class="cls-1" d="M197.686,229.8H183l3.424,9.065a6.481,6.481,0,0,0,8.355,3.774l.718-.272a6.481,6.481,0,0,0,3.774-8.355Z" transform="translate(-154.094 -193.328)"/>
-    <path id="Path_23" data-name="Path 23" class="cls-1" d="M50.012,144.5H11.869a6.828,6.828,0,1,0,0,13.656H50.012a6.828,6.828,0,1,0,0-13.656Z" transform="translate(-5 -121.868)"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51 51"><defs><style>.a,.b,.c{fill:none;stroke-miterlimit:10;}.a{stroke:#7fbcbe;}.b{stroke:#f16162;}.c{stroke:#ffd13a;}</style></defs><g transform="translate(-4.5 -4.5)"><g transform="translate(5 5)"><path class="a" d="M209.372,114.565h2.476l2.919-8.635a4.1,4.1,0,0,0,.2-.985l-.685-1.811a4.074,4.074,0,0,0-5.25-2.372l-.451.171a3.145,3.145,0,0,0-1.988,2.234l-.634,1.876a4.049,4.049,0,0,0,.25,1.14Z" transform="translate(-185.906 -90.984)"/><path class="b" d="M177.473,146.65a4.046,4.046,0,0,1-.25-1.14L174,155.032h6.635Z" transform="translate(-157.125 -131.491)"/><path class="b" d="M135.853,333.431l.458.155a4.073,4.073,0,0,0,5.164-2.555l1.937-5.731H134.3l-1,2.967A4.073,4.073,0,0,0,135.853,333.431Z" transform="translate(-120.307 -293.333)"/><path class="c" d="M279.406,333.368l.451-.171a4.073,4.073,0,0,0,2.372-5.25l-1-2.647H272l2.152,5.7a4.074,4.074,0,0,0,5.254,2.372Z" transform="translate(-245.368 -293.331)"/><path class="c" d="M264.27,154.16h6.751l-3.635-9.62a4.1,4.1,0,0,1-.2.985Z" transform="translate(-238.382 -130.618)"/><path class="a" d="M98.227,248.582H121.7a4.272,4.272,0,0,0,4.227-4.291h0A4.271,4.271,0,0,0,121.7,240H98.227A4.273,4.273,0,0,0,94,244.291h0a4.272,4.272,0,0,0,4.227,4.291Z" transform="translate(-85.014 -216.547)"/><circle class="a" cx="25" cy="25" r="25" transform="translate(0 0)"/></g></g></svg>
