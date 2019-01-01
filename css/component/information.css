@@ -49,7 +49,7 @@
 	position: relative;
 	width: 100%;
 	margin-bottom: 1.2em;
-	padding: 1.4em 0;
+	padding: 2.5em 0;
 	text-align: center;
 	outline: 2px dashed #f4f4f4;
 	outline-offset: -5px;
@@ -85,7 +85,7 @@
 	text-align: center;
 	text-transform: uppercase;
 	font-size: .875em;
-	font-weight: 600;
+	font-weight: 500;
 	width: 150px;
 	height: 40px;
 	margin-bottom: 1em;
@@ -149,13 +149,15 @@
 
 
 .information form.setup .provider {
-	width: 60%;
+	width: 150px;
+	height: 150px;
 	text-align: center;
 	margin: 0 auto;
 	margin-bottom: 2.2em;
 	padding: 1em 0;
 	border: 1px solid aliceblue;
 	border-radius: 5px;
+	box-sizing: border-box;
 }
 
 .information form.setup .provider.gmail {
@@ -184,7 +186,7 @@
 }
 
 .information form.setup p {
-	margin-top: 4em;
+	margin: 4em 0;
 }
 
 .information form.setup p a {
@@ -193,6 +195,66 @@
 	text-decoration: underline;
 	margin-top: .5em;
 }
+
+.information form.setup .pagination a:last-of-type img {
+	display: none;
+}
+
+/***************************
+	Confirmation
+***************************/
+
+.information form.confirmation {
+	text-align: center;
+	margin-top: 6em;
+	padding: 1em;
+	border: 1px solid aliceblue;
+}
+
+.information form.confirmation figure {
+	width: 200px;
+	margin: 0 auto;
+	padding: 1em;
+	background-color: aliceblue;
+}
+
+.information form.confirmation figure img {
+	width: 90%;
+}
+
+.information form.confirmation h2 {
+	font-size: 1.4em;
+	font-weight: 400;
+}
+
+.information form.confirmation p {
+	color: #A2B3BB;
+	font-size: .875em;
+	font-weight: 400;
+	margin: 0;
+}
+
+.information form.confirmation p a {
+	color: #0078D7;
+	text-decoration: underline;
+}
+
+.information form.confirmation .pagination {
+	float: none;
+}
+
+
+.information form.confirmation .pagination a {
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+}
+
+
+.information form .pagination a img {
+	display: none;
+}
+
 
 @media only screen and (min-width: 767px) {
 	
@@ -315,6 +377,27 @@
 		margin: 0;
 		margin-left: 1em;
 	}
+
+	/***************************
+		Email Setup
+	***************************/
+
+	.information form.setup .provider {
+		display: inline-block;
+	}
+
+	.information form.setup .provider.outlook {
+		margin: 0 2.2em;
+	}
+
+	/***************************
+		Confirmation
+	***************************/
+
+	.information form.confirmation {
+		width: 35%;
+		padding: 2em;
+	}
 }
 
 @media only screen and (min-width: 1279px) {
@@ -327,14 +410,19 @@
 		overflow: hidden;
 	}
 	
-	.information header {
+	.information .title {
 		float: none;
 		display: inline-block;
 		margin-top: 1em;
 		padding: 0 2em;
 	}
 
-	.information header img {
+	.information .title div {
+		width: auto;
+		text-align: left;
+	}
+
+	.information .title img {
 		display: none;
 	}
 
@@ -357,7 +445,7 @@
 
 	.information form {
 		display: inline-block;
-		width: 62%;
+		width: 61%;
 		margin: 0;
 		padding: 0 2em;
 	}
@@ -369,5 +457,18 @@
 
 	.information form div label {
 		width: 48.39%;
+	}
+
+	/***************************
+		Confirmation
+	***************************/
+
+	.information.container {
+		border: none;
+	}
+
+	.information form.confirmation {
+		display: block;
+		margin: 0 auto;
 	}
 }
