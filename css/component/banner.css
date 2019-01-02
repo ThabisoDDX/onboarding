@@ -14,7 +14,7 @@
 
 .banner article {
     margin-top: 6.7em;
-    width: 100%;
+    width: 95%;
 }
 
 .banner article h2 {
@@ -54,12 +54,12 @@
     }
 
     .banner article {
-        margin-top: 23.4em;
-        width: 75%;
+        margin-top: 24em;
+        width: 72%;
     }
 
     .banner article h2 {
-        font-size: 4.8em;
+        font-size: 4.6em;
     }
     
     .banner article p {
